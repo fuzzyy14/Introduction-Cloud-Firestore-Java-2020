@@ -7,10 +7,10 @@ public class App {
 
 	public static void main(String[] parametres) {
 		
-		MoutonDAO dao = new MoutonDAO();
+		/*MoutonDAO dao = new MoutonDAO();
 		Mouton mouton = new Mouton();
 		mouton.setNom("Coucou");
-		dao.ajouterMouton(mouton);
+		dao.ajouterMouton(mouton);*/
 		
 		Fenetre.launch(Fenetre.class, parametres);	
 	}
