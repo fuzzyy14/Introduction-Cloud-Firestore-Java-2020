@@ -9,7 +9,9 @@ public class App {
 		
 		/*MoutonDAO dao = new MoutonDAO();
 		Mouton mouton = new Mouton();
-		mouton.setNom("Coucou");
+		mouton.setNom("osekour");
+		mouton.setCouleur("terre");
+		mouton.setPoids(1010);
 		dao.ajouterMouton(mouton);*/
 		
 		Fenetre.launch(Fenetre.class, parametres);	

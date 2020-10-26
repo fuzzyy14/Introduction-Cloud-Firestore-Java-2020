@@ -2,7 +2,7 @@ package modele;
 
 public class Mouton {
 	
-	protected int id;
+	protected String id;
 	protected String nom;
 	protected String couleur;
 	protected double poids;
@@ -31,11 +31,11 @@ public class Mouton {
 		this.poids = poids;
 	}
 
-	public void setId(int id) {
-		this.id = id;
+	public void setId(String id2) {
+		this.id = id2;
 	}
 	
-	public int getId() {
+	public String getId() {
 		return id;
 	}
 
